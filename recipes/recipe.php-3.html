@@ -1,0 +1,452 @@
+﻿<html>
+<head>
+<title>Recepte - Pacientu datu apmaiņas sistēma</title>
+<meta charset="utf-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link href="../1.11.2/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../v/bs5/dt-1.11.2/b-2.0.0/cr-1.5.4/fc-3.3.3/fh-3.1.9/r-2.2.9/sc-2.0.5/sp-1.4.0/datatables.min.css">
+
+<link rel="stylesheet" href="../npm/uikit%403.13.10/dist/css/uikit.min.css">
+<link href="../style/style.css?v=202205190820" rel="stylesheet">
+</head>
+<body class="">
+<div class="wrapper">
+<div class="subsystem-title ps-3">
+<div class="title">Recepte</div>
+<div class="system-user">
+<b>Aleks Egle</b>, Daugavpils reģionālā slimnīca, Sabiedrība ar ierobežotu atbildību
+</div>
+<a href="#" class="close"><span>Beigt darbu</span><i class="fas fa-sign-out-alt"></i></a>
+</div>
+<div class="header sea-40-bg">
+<div class="row align-items-center">
+<div class="col-12 col-md-auto"><div class="name"><h1>Ingrid Vasserman </h1></div></div>
+<div class="col-auto"><div class="patient-id">12365478965</div></div>
+<div class="col-auto"><div class="country"><img src="../flags/de.png">Germany</div></div>
+<div class="col">
+<div class="patient-change">
+<a href="../auth/select-country.php.html"><i class="fas fa-user"></i><span class="d-none d-sm-inline">Apkalpot nākamo ārzemnieku</span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="row g-0">
+<div class="col-md-8 p-3 content">
+<div class="row pb-3 d-flex align-items-center">
+<div class="col">
+<h2 class="fs-4 m-0"><a href="index.htm"><i class="fas fa-chevron-left me-2"></i>Receptes</a></h2>
+</div>
+</div>
+<div class="alert alert-info" role="alert">
+Ja nepieciešams sazināties ar ārstniecības personu <b>Vācijā</b>, lūdzu izmantojiet kontaktinformāciju, kas norādīta sadaļā Ārstniecības persona.
+</div>
+<div class="card recipe">
+<div class="card-body">
+<div class="row mb-3 d-flex align-items-center">
+<div class="col-auto">
+<div class="badge bg-success fs-6">Derīga izsniegšanai</div>
+</div>
+<div class="col-auto">
+<div class="recipe-id fs-5">14195155552596218</div>
+</div>
+<div class="col text-end">
+<button class="btn btn-sm btn-outline-primary"><i class="fas fa-file-pdf"></i> Oriģinālā recepte svešvalodā</button>
+</div>
+</div>
+<div class="row d-flex align-items-center">
+<div class="col-auto">
+<div class="recipe-dates">Izrakstīta: <b>12.12.2021.</b> Derīga līdz: <b>12.12.2022.</b></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row mb-3">
+<div class="col">
+<div class="card h-100">
+<div class="card-body">
+<h4 class="sea-80 mb-3">Ārstniecības līdzeklis <span class="badge bg-success ms-3">Drīkst aizvietot</span></h4>
+<div class="card-row">
+<label>Zāles (kods/nosaukums)</label>
+<div class="card-data">
+<div class="recipe-id me-2">15-0212</div> Triveram 20 mg/10 mg apvalkotās tabletes
+</div>
+</div>
+<div class="card-row">
+<label>Zāles (kods/nosaukums)</label>
+<div class="card-data">
+<div class="recipe-id me-2">C10BX11</div> Atorvastatīns, amlodipīns un perindoprils
+</div>
+</div>
+<div class="card-row">
+<label>Iekļautās aktīvās vielas </label>
+<div class="card-data">
+<table class="table">
+<thead>
+<tr>
+<th>Kods</th>
+<th>Nosaukums</th>
+<th>Stiprums</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><div class="recipe-id me-2">Nav informācijas</div></td>
+<td>Atorvastatin</td>
+<td>20 mg</td>
+</tr>
+<tr>
+<td><div class="recipe-id me-2">Nav informācijas</div></td>
+<td>Perindopril arginine</td>
+<td>10 mg</td>
+</tr>
+<tr>
+<td><div class="recipe-id me-2">Nav informācijas</div></td>
+<td>Amlodipine</td>
+<td>5 mg</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="card-row">
+<label>Zāļu forma</label>
+<div class="card-data">
+Apvalkotās tablete
+</div>
+</div>
+<div class="card-row">
+<label>Zāļu komerciālais nosaukums</label>
+<div class="card-data">
+Triveram 20mg/10mg/5mg apvalkotās tabletes
+</div>
+</div>
+<div class="card-row">
+<label>Kopējais izrakstītais daudzums</label>
+<div class="card-data">
+30
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="accordion" id="accordionExample">
+<div class="accordion-item mb-3">
+<h2 class="accordion-header" id="heading-patient">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#use" aria-expanded="true" aria-controls="use">
+Lietošana
+</button>
+</h2>
+<div id="use" class="accordion-collapse collapse show" aria-labelledby="heading-use" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<div class="card-row">
+<label>Lietošanas veids</label>
+<div class="card-data">
+Perorālai/iekšķīgai lietošanai
+</div>
+</div>
+<div class="card-row">
+<label>Lietošanas deva (vienā reizē)</label>
+<div class="card-data">
+1
+</div>
+</div>
+<div class="card-row">
+<label>Lietošanas biežums </label>
+<div class="card-data">
+2 reizes dienā
+</div>
+</div>
+<div class="card-row">
+<label>Lietošanas ilgums</label>
+<div class="card-data">
+3 nedēļas
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion-item mb-3">
+<h2 class="accordion-header" id="heading-c-1">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-1" aria-expanded="false" aria-controls="c-1">
+NORĀDĪJUMI PACIENTAM (svešvalodā)
+</button>
+</h2>
+<div id="c-1" class="accordion-collapse collapse" aria-labelledby="c-1" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+<div class="accordion-item mb-3">
+<h2 class="accordion-header" id="heading-c-2">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-2" aria-expanded="false" aria-controls="c-2">
+Ieteikumi zāļu izsniedzējam (svešvalodā)
+</button>
+</h2>
+<div id="c-2" class="accordion-collapse collapse" aria-labelledby="c-2" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+<div class="accordion-item mb-3">
+<h2 class="accordion-header" id="heading-c-3">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-3" aria-expanded="false" aria-controls="c-3">
+ĀRSTNIECĪBAS PERSONA
+</button>
+</h2>
+<div id="c-3" class="accordion-collapse collapse" aria-labelledby="c-3" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+<div class="accordion-item mb-3">
+<h2 class="accordion-header" id="heading-c-4">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-4" aria-expanded="false" aria-controls="c-4">
+ATBILDĪGĀ ORGANIZĀCIJA
+</button>
+</h2>
+<div id="c-4" class="accordion-collapse collapse" aria-labelledby="c-4" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+<div class="accordion-item">
+<h2 class="accordion-header" id="heading-c-5">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c-5" aria-expanded="false" aria-controls="c-5">
+PAR RECEPTES SATURU ATBILDĪGIE
+</button>
+</h2>
+<div id="c-5" class="accordion-collapse collapse" aria-labelledby="c-5" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="alert alert-info" role="alert">
+Latvijā nedrīkst iegādāties ārzemēs izrakstītas psihotropās vai narkotiskās zāles un aptiekā izgatavojamās zāles.
+<br><br>
+Receptes derīguma termiņš tiek aprēķināts atbilstoši Latvijas normatīvajos aktos noteiktajam.
+</div>
+</div>
+<div class="col p-3">
+<div class="sidebar">
+<h2 class="fs-4 m-0 pb-3">Izniegšana</h2>
+<div class="steps">
+<ul>
+<li>
+<a href="#" class="active"><span class="num">1</span><span class="name">Medikamenta izvēle</span></a>
+</li>
+<li>
+<a href="#" class=""><span class="num">2</span><span class="name">Priekšskatīt</span></a>
+</li>
+<li>
+<a href="#" class=""><span class="num">3</span><span class="name">Izsniegšana</span></a>
+</li>
+</ul>
+</div>
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+Reģistrācija atcelta
+<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+<div class="alert alert-info" role="alert">
+Lūdzu, izvēlieties receptē izrakstītajām zālēm atbilstošu medikamentu un ievadiet izsniedzamo zāļu iepakojumu daudzumu.
+<br><br>
+Jūs drīkstat izsniegt arī daļu no izrakstītā zāļu daudzuma.
+</div>
+<div class="card mb-3">
+<div class="card-body">
+<div class="m-0">
+<label for="field-1" class="form-label">Izsniedzamie medikamenti</label>
+<div class="input-group mb-3">
+<input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#med-table">Izvēlēties</button>
+</div>
+
+<div class="modal fade" id="med-table" tabindex="-1" aria-labelledby="med-table-label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-xl">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="med-table-label">Medikamentu saraksts</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<div class="alert alert-info" role="alert">
+Lūdzu, izvēlieties receptē izrakstītajām zālēm atbilstošu medikamentu no piedāvātā medikamentu saraksta.<br><br>
+Informējam, ka piedāvātajā medikamentu sarakstā ir pieejami medikamenti ar visiem šim medikamentam iespējamajiem stiprumiem. Lūdzu, izvēlieties tādu pašu stiprumu kā norādīts receptē.<br><br>
+Nedrīkst izsniegt cita stipruma un zāļu formas, kas neatbilst receptē izrakstītajam!
+</div>
+<div class="row">
+<div class="col">
+<div class="row">
+<div class="col-md">
+<div class="recipe-id me-2">C10BX11</div> <b>Atorvastatīns, amlodipīns un perindoprils</b>
+</div>
+<div class="col-md-auto text-end">
+<div class="input-group mb-2 minilist-search">
+<input class="form-control form-control-sm" type="text"><button type="" class="btn btn-sm btn-link"><i class="fas fa-search"></i></button>
+</div>
+</div>
+</div>
+<table class="table table-hover table-cb">
+<thead>
+<tr>
+<th scope="col">Medikamenta kods</th>
+<th scope="col">Medikamenta nosaukums</th>
+<th scope="col">Stiprums/koncentrācija</th>
+<th scope="col">Lietošanas veids</th>
+<th scope="col">Daudzums iepakojumā</th>
+<th scope="col"></th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+<td data-th="Medikamenta kods"><span class="code">15-0212-01</span></td>
+<td data-th="Medikamenta nosaukums"><span>Triveram 20mg/10mg/5mg apvalkotās tabletes</span></td>
+<td data-th="Stiprums/koncentrācija"><span>20mg/10mg/5mg</span></td>
+<td data-th="Lietošanas veids"><span>Preorāli/iekšķīgai lietošanai</span></td>
+<td data-th="Daudzums iepakojumā"><span>30</span></td>
+<td><a class="btn btn-primary btn-sm">Izvēlēties</a></td>
+</tr>
+
+
+<tr>
+<td data-th="Medikamenta kods"><span class="code">15-0212-01</span></td>
+<td data-th="Medikamenta nosaukums"><span>Triveram 20mg/10mg/5mg apvalkotās tabletes</span></td>
+<td data-th="Stiprums/koncentrācija"><span>20mg/10mg/5mg</span></td>
+<td data-th="Lietošanas veids"><span>Preorāli/iekšķīgai lietošanai</span></td>
+<td data-th="Daudzums iepakojumā"><span>30</span></td>
+<td><a class="btn btn-primary btn-sm">Izvēlēties</a></td>
+</tr>
+
+
+<tr>
+<td data-th="Medikamenta kods"><span class="code">15-0212-01</span></td>
+<td data-th="Medikamenta nosaukums"><span>Triveram 20mg/10mg/5mg apvalkotās tabletes</span></td>
+<td data-th="Stiprums/koncentrācija"><span>20mg/10mg/5mg</span></td>
+<td data-th="Lietošanas veids"><span>Preorāli/iekšķīgai lietošanai</span></td>
+<td data-th="Daudzums iepakojumā"><span>30</span></td>
+<td><a class="btn btn-primary btn-sm">Izvēlēties</a></td>
+</tr>
+
+</tbody>
+</table>
+<ul class="pagination justify-content-end">
+
+<li class="page-item active"><a class="page-link" href="#">1</a></li>
+<li class="page-item"><a class="page-link" href="#">2</a></li>
+<li class="page-item"><a class="page-link" href="#">3</a></li>
+<li class="page-item">
+<a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row mb-3">
+<div class="col-md">
+<label for="field-1" class="form-label">Iepakojumus skaits</label>
+<input type="number" class="form-control" id="field-1" value="1">
+</div>
+<div class="col pt-3 pt-md-0">
+<label for="field-2" class="form-label">Kopējais izsniedzamais daudzums</label>
+<input type="text" readonly="" class="form-control-plaintext" id="field-2" value="30">
+</div>
+</div>
+<div class="mb-2">
+<label for="field-1" class="form-label">Aizvietots</label>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+<label class="form-check-label" for="inlineRadio1">Jā</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+<label class="form-check-label" for="inlineRadio2">Nē</label>
+</div>
+</div>
+<div class="row mt-3">
+<div class="col">
+<a type="submit" href="recipe.php-1.html?p=review" class="btn btn-primary">Tālāk</a>
+</div>
+<div class="col-auto text-end">
+<a type="submit" href="recipe.php.html" class="btn btn-outline-primary">Notīrīt</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="accordion" id="ako-1">
+<div class="accordion-item">
+<h2 class="accordion-header" id="heading-patient">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#more" aria-expanded="false" aria-controls="more">
+<i class="fas fa-info-circle me-2"></i> PAPILDU INFORMĀCIJA
+</button>
+</h2>
+<div id="more" class="accordion-collapse collapse" aria-labelledby="heading-more" data-bs-parent="#ako-1">
+<div class="accordion-body">
+Lūdzu, ņemiet vērā, ka receptē norādītais zāļu nosaukums var nebūt atrodams Latvijas Zāļu reģistrā, tāpēc receptē ir iekļauts arī izrakstītajām zālēm atbilstošais ATĶ kods un nosaukums.
+<br><br>
+Ja receptē izrakstītās zāles nav atļauts aizvietot, tad nedrīkst izsniegt citas zāles!
+<br><br>
+Ja ārzemēs ir izrakstītas zāles, kuru iegādes izdevumus pacientam daļēji vai pilnībā kompensē no Vācija budžeta līdzekļiem, personai zāles Latvijā ir jāiegādājas par personīgajiem līdzekļiem. Izdevumu atmaksu persona var pieprasīt valstī, kurā ir izrakstīta attiecīgā recepte.
+<br><br>
+Ārzemēs izrakstītajās receptēs netiek norādīta personas diagnoze.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="system-version">
+V 1.23
+</div>
+</footer>
+</body>
+<script src="../jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+<script src="../npm/%40popperjs/core%402.9.2/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="../npm/bootstrap%405.1.1/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<script src="../npm/uikit%403.13.10/dist/js/uikit.min.js"></script>
+<script src="../npm/uikit%403.13.10/dist/js/uikit-icons.min.js"></script>
+<script type="text/javascript" src="../v/bs5/dt-1.11.2/b-2.0.0/cr-1.5.4/fc-3.3.3/fh-3.1.9/r-2.2.9/sc-2.0.5/sp-1.4.0/datatables.min.js"></script>
+<script>
+
+$(document).ready(function() {
+
+$('#example').DataTable({
+      columnDefs: [
+     { orderable: false, targets: 5 },
+      { orderable: false, targets: 0 }
+    ],
+   "order": [[1, "asc"]],
+    language: {  url: '//cdn.datatables.net/plug-ins/1.11.2/i18n/lv.json' }
+
+  });
+
+
+} );
+
+</script>
+<script>
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+});
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl);
+});
+
+
+</script>
+</html>
